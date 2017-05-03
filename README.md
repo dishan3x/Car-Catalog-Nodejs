@@ -4,13 +4,16 @@ Scrumtastic is a web-based agile development tool for [SCRUM](https://en.wikiped
 To run this program
 
 #set up the packet manager
-npm init
-npm install
-npm install sqlite3
+
+npm init </br>
+npm install </br>
+npm install sqlite3 </br>
 
 
 #inital migration to the databases
+
 npm run migrate
 
 #Run the server
+
 node server.js
