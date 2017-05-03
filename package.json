@@ -1,0 +1,34 @@
+{
+  "name": "dishan3x",
+  "version": "1.0.0",
+  "description": "A web app for SCRUM software development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node scripts/migrate.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombiepaladin/scrumtastic.git"
+  },
+  "keywords": [
+    "SCRUM",
+    "software",
+    "development",
+    "task",
+    "board"
+  ],
+  "author": "Nathan H. Bean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zombiepaladin/scrumtastic/issues"
+  },
+  "homepage": "https://github.com/zombiepaladin/scrumtastic#readme",
+  "dependencies": {
+    "sqlite3": "3.1.8"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  }
+}

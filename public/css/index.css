@@ -1,0 +1,79 @@
+img {
+  width: 250px;
+}
+#gallery-title {
+  cursor: pointer;
+  text-align: center;
+  color: blue;
+  font-style: italic;
+  font-size: 2.5em;
+  font-family : Buxton Sketch;
+}
+}
+#gallery-title-edit {
+  display: none;
+}
+#image-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: pink;
+}
+.singleCatalogue{
+display: -webkit-box;
+}
+#header {
+    height:7em;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:100%;
+    margin:0px auto;
+}
+
+#gallery-title-edit{
+ float:right;
+}
+.imageview{
+width:75%;
+padding-left: 23%;
+
+}
+.descriptionarea{
+width:550%;
+}
+.info{
+padding-left:30%;
+}
+#backbtn{
+    display: block;
+    width: 115px;
+    background: #4E9CAF;
+    padding: 10px;
+	margin-right : 10%;
+	margin-bottom : 10%
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	float:right;
+}
+#description{
+  margin-left: 36%;
+  width: 450px;
+}
+
+
+
+.catologItem .picture {
+	 display: inline-block;
+}
+
+.carCat{
+	display:-webkit-inline-box;
+}
+
+#uploadBtnShow{
+	float: right;
+}
